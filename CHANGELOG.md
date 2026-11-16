@@ -25,4 +25,4 @@ Abaixo estão as capturas de tela comprovando a execução de cada parte do trab
 ---
 
 ### deadlock_corrigido.py (Parte 3)
-![Log do deadlock corrigido](<img width="825" height="335" alt="printDeExecução - deadlock_corrigido" src="https://github.com/user-attachments/assets/47142f41-0f29-488b-b947-fc0dd4a28248" />)
+![Log do deadlock corrigido](<img width="825" height="335" alt="printDeExecução - deadlock_corrigido" src="https://github.com/user-attachments/assets/47142f41-0f29-488b-b947-fc0dd4a28248" />) 
