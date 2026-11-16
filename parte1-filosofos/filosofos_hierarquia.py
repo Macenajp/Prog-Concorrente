@@ -61,7 +61,7 @@ if __name__ == "__main__":
     for t in threads:
         t.join()
 
-    print("\n\n=======================")
+    print("\n=======================")
     print("| Resumo da Simulacao |")
     print("=======================\n")
     for i in range(N):

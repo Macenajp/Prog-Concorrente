@@ -37,8 +37,9 @@ def tarefa_thread_2():
         lock_a.release()
         lock_b.release()
 
-if __name__ == "__main__":
-    print("--- Iniciando Simulacao de Deadlock (Ordem Inversa de Locks) ---\n")
+if __name__ == "__main__":   
+    print("===========================================================================")
+    print("| Iniciando Simulacao de Deadlock (Ordem Inversa de Locks) |\n")
 
     t1 = threading.Thread(target=tarefa_thread_1, name="Thread-1", daemon=True)
     t2 = threading.Thread(target=tarefa_thread_2, name="Thread-2", daemon=True)
@@ -53,11 +54,11 @@ if __name__ == "__main__":
         print("As threads nao terminaram apos o tempo limite. Estado atual (threading.enumerate()):")
         
         for t in threading.enumerate():
-            print(f" - Nome: {t.name} | Ativa (bloqueada se 'worker'): {t.is_alive()} | ID: {t.ident}")
-        print("\n| O programa permanece travado em espera circular. Use as teclas: 'Ctrl + C' para encerrar |")
+            print(f" -> Nome: {t.name} | Ativa (bloqueada se 'worker'): {t.is_alive()} | ID: {t.ident}")
+        print("\n[!] O programa permanece travado em espera circular. Use as teclas: 'Ctrl + C' para encerrar [!]")
         try:
             while True:
                 time.sleep(1)
         except KeyboardInterrupt:
-            print("\nEncerrado pelo usuario.")
+            print("\nEncerrado manualmente pelo usuário.")
             sys.exit(0)
