@@ -2,8 +2,8 @@
 
 - **Autor:** João Pedro Macena Correa
 - **Linguagem:** Python 3
-- **Apresentação (YouTube):** [link](COLE-AQUI-O-LINK-DO-YOUTUBE)
-- **Prints e Histórico de Execuções:** [Ver CHANGELOG.md](./CHANGELOG.md)
+- **Apresentação (YouTube):** [Clique aqui para assistir ao vídeo](https://youtu.be/k7UZCHLKWuY)
+- **Prints e Histórico de Execuções:** [CHANGELOG.md](./CHANGELOG.md)
 
 ---
 
