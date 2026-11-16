@@ -54,4 +54,4 @@ if __name__ == "__main__":
         while True:
             time.sleep(1)
     except KeyboardInterrupt:
-        print("\Simulação encerrada manualmente pelo usuário.")
+        print("\nSimulação encerrada manualmente pelo usuário.")

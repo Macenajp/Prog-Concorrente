@@ -24,7 +24,8 @@ def executar_com_hierarquia(nome_thread):
 
 
 if __name__ == "__main__":
-    print("--- Iniciando Execucao Corrigida (Hierarquia Global: LOCK_A -> LOCK_B) ---\n")
+    print("===========================================================================")
+    print("| Iniciando Execucao Corrigida (Hierarquia Global: LOCK_A -> LOCK_B) |\n")
 
     t1 = threading.Thread(target=executar_com_hierarquia, args=("Thread-1",), name="Thread-1")
     t2 = threading.Thread(target=executar_com_hierarquia, args=("Thread-2",), name="Thread-2")
